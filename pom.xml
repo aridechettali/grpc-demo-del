@@ -55,7 +55,7 @@
             <configuration>
               <includeMavenTypes>direct</includeMavenTypes>
               <inputDirectories>
-                <include>src/main/proto</include>
+                <include>src/main/proto/com/grpc/common</include>
               </inputDirectories>
               <outputTargets>
                 <outputTarget>
