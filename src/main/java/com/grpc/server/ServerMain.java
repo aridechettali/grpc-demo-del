@@ -2,7 +2,7 @@ package com.grpc.server;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
-public class ServerStart
+public class ServerMain
 {
     public static void main( String[] args ) throws Exception {
         System.out.println("GRPC Server Starting");
