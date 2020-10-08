@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package com.grpc.common;
+package com.grpc.generated;
 import "Author.proto";
 
 message Book {

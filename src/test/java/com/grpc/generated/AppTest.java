@@ -1,4 +1,4 @@
-package com.grpc.common;
+package com.grpc.generated;
 
 import static org.junit.Assert.assertTrue;
 

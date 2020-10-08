@@ -1,5 +1,6 @@
 package com.grpc.server;
 
+import com.grpc.server.service.BookService;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 public class ServerMain

@@ -1,8 +1,8 @@
 package com.grpc.client;
 
-import com.grpc.common.BookOuterClass.*;
-import com.grpc.common.BookServicesGrpc;
-import com.grpc.common.BookServicesGrpc.*;
+import com.grpc.generated.BookOuterClass.*;
+import com.grpc.generated.BookServicesGrpc;
+import com.grpc.generated.BookServicesGrpc.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
