@@ -10,10 +10,6 @@ message Book {
   Author author = 4;
 }
 
-message Books {
-  repeated Book books = 1;
-}
-
 message BookId {
   int32 id = 1;
 }
@@ -21,5 +17,5 @@ message BookId {
 service BookServices {
   // Sends a greeting
   rpc bookById (BookId) returns (Book) {}
-  rpc findAllBooks (BookId) returns (Books) {}
+  rpc findAllBooks (BookId) returns (stream Book) {}
 }
